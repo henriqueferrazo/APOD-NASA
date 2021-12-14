@@ -12,14 +12,22 @@
 <body>
     <header>
         <h1>Observe o universo</h1>
-        <p>Veja o universo no dia que você nasceu, no dia do seu casamneto ou então quando seu time foi campeão. E uma explicação de um astrônomo profissional até a data de 16/06/1995!</p>
+        <p>Veja o universo no dia que você nasceu, no dia do seu casamento ou então quando seu time foi campeão. E uma explicação de um astrônomo profissional até a data de 16/06/1995!</p>
     </header>
     
     <br><br><br>
     
     <div class="btn">
-        <input type="date" name="data" min="1995-16-06">
+        <input id="data" type="date" name="data" min="1995-16-06">
         <button id="btn-in" type="submit" value="search">OK</button>
     </div>
+
+    <div id="infoResultado">
+        <h1 id="titulo"></h1>
+        <div id="imagem"></div>
+        <p id="esplicação"></p>
+    </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="index.js"></script>
 </html>

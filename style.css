@@ -17,3 +17,16 @@ header{
 .btn{
     text-align: center;
 }
+#infoResultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.85);
+    color:white;
+}
+#infoResultado #titulo{
+    font-family: 'Bakbak One', cursive;
+    font-size: 25px;
+    color: #2f00ffb6;
+}
