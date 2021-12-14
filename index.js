@@ -1,6 +1,6 @@
 $("#btn-in").click(
     function(){
-        var data = $("#date").val(); 
+        const data = $("#date").val(); 
         $.ajax({
             url: `https://api.nasa.gov/planetary/apod?api_key=kb1rtE5VqFl1PAaE8dI16yagmdTXhJQj1ykRqct2&date=${data}`,
             type: 'GET',
